@@ -19,6 +19,7 @@ Array.Prototype.join()
 What it does - It joins all the element in an array into a string.
 */
 
+//Using the Built in Function => Functional Programming
 const reverseString = (str) => {
     //convert the string into an Array so that I can have access to the indivisual elements in the array.
     //An empty string with no space in the middle as a seperator.
@@ -31,3 +32,22 @@ const reverseString = (str) => {
 reverseString('Hello');
 reverseString("Howdy");
 reverseString("Greetings from Earth");
+
+//Using a FOR Loop
+const reverseAString = (string) => {
+    // A placeholder variable for new String.
+    var newString = ' ';
+
+    // index(i) should start at the end of the string, in this case "o".
+    // And loop runs as long as i is greater than or equal zero
+    // On every iteration, I want to decrement i;
+    for(var i = string.length-1; i >= 0; i--){
+        newString += string[i];      
+    }   
+
+    return console.log(newString);
+}
+
+reverseAString('Hello');
+reverseAString("Howdy");
+reverseAString("Greetings from Earth");
