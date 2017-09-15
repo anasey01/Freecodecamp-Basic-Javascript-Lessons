@@ -21,6 +21,7 @@
     String.prototype.replace() = Searches a string for a specified value or RegEx and returns
     a string where the specified values are.
     String.prototype.toLowerCase() = converts a string value to lowercase
+    String.prototype.charAt() = It returns a charater at the specified position from a string.
 
     MY TRAIN OF THOUGHTS
         -  OPTION 1 : Step 1 : Take out the special charaters in the string and convert to lowercase
