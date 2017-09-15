@@ -48,7 +48,7 @@ const palindrome = (str) => {
     // let arrPalindrome = str.split(''); // Not using this so I can use the charAt() method.
     // console.log(arrPalindrome);
 
-    
+    //gettingg the index of the middle value
     let middle = Math.floor(str.length/2);
     let i = 0;
     let j = str.length-1;
