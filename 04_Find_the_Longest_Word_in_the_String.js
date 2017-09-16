@@ -18,8 +18,7 @@ const findLongestWord = (str) => {
     words = str.split(' ');
     // console.log(words);
     let longestWord = 0;
-    for (var i = 0; i < words.length; i++){
-                    words[i];   
+    for (var i = 0; i < words.length; i++){            
     let wordLength = words[i].length;
     // console.log(words[i]);
     // console.log(wordLength);
@@ -31,7 +30,7 @@ const findLongestWord = (str) => {
     
     }
     //Return the length.
-    return console.log(longestWord);
+    // return console.log(longestWord);
 
 }
 
